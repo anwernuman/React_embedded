@@ -21,7 +21,7 @@ export default class App extends React.Component {
           method="POST"
           action="https://api.razorpay.com/v1/checkout/embedded"
         >
-          <input type="hidden" name="key_id" value="rzp_test_rwVNqXFDCnSJjO" />
+          <input type="hidden" name="key_id" value="YOUR_KEY_ID" /> // Enter the Key ID generated from the Dashboard
           <input type="hidden" name="amount" value={this.state.amount} />
           <input type="hidden" name="name" value="Acme Corp" />
           <input type="hidden" name="description" value="A Wild Sheep Chase" />
